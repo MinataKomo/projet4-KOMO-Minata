@@ -1,0 +1,171 @@
+header{
+    background-image: url(images/h.jpg);
+    /* background-color: aqua; */
+    height: 650px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background: scroll; */
+   /* background-size: contai; */
+}
+header marquee{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+button{
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+    background-color: white;
+    
+}
+.marq{
+    text-align: center;
+}
+.marq img{
+    height: 100px;
+}
+nav{
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    /* background: rgb(175, 142, 206); */
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    font-size: 20px;
+   ;
+}
+li{
+    list-style: none;
+  
+}
+ul li a{
+    color: aliceblue;
+    text-decoration: none;
+}
+nav div li a{
+    
+    text-decoration: none;
+}
+nav div{
+    font-size: 30px;
+    padding-top: 10px;
+}
+nav div span{
+    color: rgb(243, 22, 22);
+}
+nav div .sp{
+    color: yellow;
+}
+nav div .pp{
+    color: rgb(0, 255, 13);
+}
+.visit .m{
+    text-align: center;
+    color: #e20e0e;
+    font-family: 'Times New Roman', Times, serif;
+}
+marquee h1{
+    color: #e0f807;
+    font-size: 55px;
+}
+/* s1 */
+.oua{
+    display: flex;
+    padding: 50px;
+}
+.ouaga{
+    width: 50%;
+    border: 1px solid gray;
+    padding: 10px;
+    height: 480px;
+}
+.ouaga p{
+    font-size: 25px;
+}
+.ouaga h3{
+    font-size: 25px;
+}
+.ouaga h1{
+    text-align: justify;
+    padding: 20px;
+    font-size: 30px;
+    color: #08fa30;
+    /* width: 50%; */
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.img{
+    width: 50%;
+    height: 380px;
+    /* height: 50%; */
+}
+.img img{
+    /* width: 50%; */
+    width: 100%;
+    height: 402px;
+}
+.bobo{
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+    border: 2px solid rgb(170, 167, 151);
+}
+.bob h1{
+    font-size: 30px;
+    color: #5951d1;
+}
+.bob span{
+    font-size: 50px;
+    color: #e20e0e;
+}
+.bob h2{
+    font-size: 25px;
+}
+.bob p, .ko p{
+    font-size: 20px;
+}
+.kou{
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.ko{
+    
+    width: 50%;
+    padding: 10px;
+    background-color: #c7d1c8;
+    text-align: center;
+}
+.ko:hover{
+    background: transparent;
+}
+.ko h1{
+    font-size: 35px;
+    color: #d151a6;
+}
+.carousel{
+    width: 50%;
+}
+.carousel img{
+    height: 400px;
+}
+
+/* foooter# */
+footer{
+    background-color: rgb(112, 107, 107);
+    /* height: 300px; */
+}
+footer .p{
+    background-color: rgb(165, 160, 160);
+   text-align: center;
+   padding: 10px;
+}
+footer .foot{
+    display: flex;
+    justify-content: space-around;
+}
