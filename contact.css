@@ -1,0 +1,144 @@
+header{
+    background-image: url(t1.jpg) ;
+    background-size: cover;
+    height: 500px;
+    background-position: end;
+}
+.btn{
+    border: 1px solid white;
+    padding: 15px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: solid;
+    text-transform: uppercase;
+}
+.btn:hover{
+    background: white;
+    color: #000;
+}
+.text{
+    padding-left: 150px;
+    padding-right: 150px;
+    color: white;
+    padding-top: 200px;
+    text-align: center;
+    /* background-color: aqua; */
+}
+.text p{
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+.container {
+    background: #cfe7dc;
+}
+
+.container {
+    display: -webkit-flex;
+    display: flex;
+    
+    height: 100%;
+}
+
+#logbox {
+    height: 550px;
+    margin: 20px auto;
+    width: 50%;
+    background-color: #fff;
+    @include border-radius(4px);
+    @include box-shadow(0, 1px, 5px, rgba(0,0,0,0.25));
+}
+
+h1 {
+    text-align: center;
+    font-size: 175%;
+    color: #757575;
+    font-weight: 300;
+}
+
+h1, input {
+    font-family: $fonts;
+}
+
+.input {
+    width: 75%;
+    height: 50px;
+    display: block;
+    margin: 0 auto 15px;
+    padding: 0 15px;
+    border: none;
+    border-bottom: 2px solid #ebebeb;
+    &:focus {
+        outline: none;
+        border-bottom-color: #58c791 !important;
+    }
+    &:hover {
+        border-bottom-color: #dcdcdc;
+    }
+    &:invalid {
+        box-shadow: none;
+    }
+}
+
+.pass:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 1000px white inset;
+}
+
+.inputButton {
+    position: relative;
+    width: 85%;
+    height: 50px;
+    display: block;
+    margin: 30px auto 30px;
+    @include border-radius(5px);
+    color: white;
+    background-color: #58c791;
+    border: none;
+    @include box-shadow(0, 5px, 0, #3aad73);
+    &:hover {
+        top: 2px;
+        @include box-shadow(0, 3px, 0, #3aad73);
+    }
+    &:active {
+        top: 5px;
+        box-shadow: none;
+    }
+    &:focus {
+        outline: none;
+    }
+}
+/* .inpu{
+    width: 20%;
+    align-items: center;
+} */
+#i{
+    color: red;
+    text-align: center;
+    
+}
+
+
+.imp{
+    border-radius: 50%;
+    width: 15%;
+    height: 30%;
+}
+.contact{
+    display: flex;
+    justify-content: space-around;
+}
+footer{
+    width: 100%;
+    background-color: gray;
+    height: 300px;
+    /* margin-left: 150px; */
+    text-align: center;
+    font-size: 20px;
+}

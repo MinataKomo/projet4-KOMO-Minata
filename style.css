@@ -1,78 +1,4 @@
-header{
-    background-image: url(images/h.jpg);
-    /* background-color: aqua; */
-    height: 650px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    /* background: scroll; */
-   /* background-size: contai; */
-}
-header marquee{
-    margin-left: 200px;
-    margin-right: 200px;
-}
-button{
-    padding: 10px;
-    border-radius: 10px;
-    border: 2px solid black;
-    background-color: white;
-    
-}
-.marq{
-    text-align: center;
-}
-.marq img{
-    height: 100px;
-}
-nav{
-    padding-left: 30px;
-    padding-right: 30px;
-    display: flex;
-    justify-content: space-between;
-    padding-top: 10px;
-    /* background: rgb(175, 142, 206); */
-}
-nav ul{
-    display: flex;
-    justify-content: space-between;
-    width: 40%;
-    font-size: 20px;
-   ;
-}
-li{
-    list-style: none;
-  
-}
-ul li a{
-    color: aliceblue;
-    text-decoration: none;
-}
-nav div li a{
-    
-    text-decoration: none;
-}
-nav div{
-    font-size: 30px;
-    padding-top: 10px;
-}
-nav div span{
-    color: rgb(243, 22, 22);
-}
-nav div .sp{
-    color: yellow;
-}
-nav div .pp{
-    color: rgb(0, 255, 13);
-}
-.visit .m{
-    text-align: center;
-    color: #e20e0e;
-    font-family: 'Times New Roman', Times, serif;
-}
-marquee h1{
-    color: #e0f807;
-    font-size: 55px;
-}
+
 /* s1 */
 .oua{
     display: flex;
@@ -83,6 +9,18 @@ marquee h1{
     border: 1px solid gray;
     padding: 10px;
     height: 480px;
+    /* background-image: radial-gradient(black, yellow, gray); */
+    /* background-image: radial-gradient(circle, black 30%, */
+  /* gray 50%, yellow 20%); */
+}
+.lo{
+    position: relative;
+    z-index: 20;
+    text-align: center;
+    color: #0bdf5c;
+    margin-top: 80px;
+    font-size: 50px;
+    /* margin-left: 0px; */
 }
 .ouaga p{
     font-size: 25px;
@@ -106,7 +44,7 @@ marquee h1{
 .img img{
     /* width: 50%; */
     width: 100%;
-    height: 402px;
+    height: 502px;
 }
 .bobo{
     display: flex;
@@ -156,16 +94,3 @@ marquee h1{
 }
 
 /* foooter# */
-footer{
-    background-color: rgb(112, 107, 107);
-    /* height: 300px; */
-}
-footer .p{
-    background-color: rgb(165, 160, 160);
-   text-align: center;
-   padding: 10px;
-}
-footer .foot{
-    display: flex;
-    justify-content: space-around;
-}

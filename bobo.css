@@ -1,0 +1,148 @@
+.perle{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.mos{
+    width: 45%;
+    height: 300px;
+}
+.mos img{
+    width: 100%;
+    height: 100%;
+}
+.h{
+    text-align: center;
+    background-color: rgb(116, 230, 116);
+    padding: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.p{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 20px;
+    color: #d48383;
+}
+.but{
+    /* margin-left: 200px;
+    margin-right: 200px; */
+    text-align: center;
+}
+.but button{
+    border: none;
+    background-color: white;
+    border-bottom: 1px solid brown;
+    cursor: pointer;
+    font-size: 15px;
+}
+.meilleur{
+    border: 2px solid gray;
+    background-color: antiquewhite;
+    padding: 15px;
+    text-align: center;
+    border-radius: 15px;
+    margin: 10px;
+}
+.meilleur input{
+    width: 80%;
+    padding: 10px;
+    border-radius: 10px;
+}
+.laub{
+    /* display: flex; */
+    display: flex;
+   
+    /* height: 400px; */
+}
+.lau{
+    /* display: flex; */
+    display: flex;
+   justify-content: space-around;
+    /* height: 400px; */
+}
+.laub img{
+    /* width: 100px; */
+}
+.mo{
+    width: 25%;
+    margin: 10px;
+    height: 200px;
+}
+.mo img{
+    width: 100%;
+    height: 100%;
+}
+.fla  {
+    width: 30%;
+}
+
+.fla img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+.a-img-txt{
+    display:grid; 
+  }
+   
+  /* les enfants se superposent */
+  .a-img-txt>*{
+    grid-area:1/1/-1/-1; 
+    /* raccourci pour grid-row et grid-column */
+  }
+   
+  /* le texte */
+  .a-txt{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:#fff;
+    opacity:0;
+    background-color: #323235;
+    width: 100%;
+    transition:opacity .8s;
+    font-size: 25px;
+  }
+   
+  /* les couleurs c1 et c2 */
+  .c1{
+      /* background:#ff6600cc; */
+       /* avec alpha */
+  }
+   
+  .c2{
+      /* background:#6600ffcc; */
+       /* avec alpha */
+  }
+   
+  /* le survol */
+  .a-txt:hover{
+    opacity:0.8;
+  }
+   
+  /* la déco */
+  body{
+    /* background:#222;
+    margin:24px;
+    font-family:sans-serif;
+    font-size:21px;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    grid-gap:24px;
+    gap:24px; */
+  }
+   
+  /* img{
+    max-width:100%;
+    height:auto;
+  }
+  a{
+    text-decoration:none;
+  } */
